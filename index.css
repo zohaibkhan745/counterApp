@@ -1,0 +1,29 @@
+
+.numDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.incrementDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.incrementBtn{
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.incrementBtn:hover{
+    background-color: red;
+}
