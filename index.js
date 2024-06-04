@@ -3,5 +3,5 @@ let countEl = document.getElementById("num")
 let count=0
 function increment (){
     count++
-    countEl.innerHTML=count
+    countEl.innerText=count
 }
