@@ -5,3 +5,8 @@ function increment (){
     count++
     countEl.innerText=count
 }
+function restart ()
+{
+    count = 0
+    countEl.innerText=count
+}
